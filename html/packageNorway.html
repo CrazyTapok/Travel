@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4465fdc7db.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/icon-1.png">
+    <title>Norway</title>
+</head>
+
+<body>
+
+    <nav class="container" id="home">
+        <a href="../html/index.html" class="nav_logo">
+            Travel
+            <i class="fas fa-hiking"></i>
+            <i class="fas fa-campground"></i>
+        </a>
+        <div class="nav_righSide">
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../html/packages.html">Packages</a></li>
+                    <li><a href="../html/gallery.html">Gallery</a></li>
+                    <li><a href="../html/book.html">Book</a></li>
+                </ul>
+            </div>
+
+            <div class="btns burgerMenu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </nav>
+
+    <ul class="burgerMenu_navigation">
+        <li><a href="../html/index.html">Home</a></li>
+        <li><a href="../html/about.html">About</a></li>
+        <li><a href="../html/packages.html">Packages</a></li>
+        <li><a href="../html/gallery.html">Gallery</a></li>
+        <li><a href="../html/book.html">Book</a></li>
+    </ul>
+
+
+    <section class="heading" style="background-image: url(../images/packages/Norway/header-bg.png)">
+        <h1>Norway</h1>
+    </section>
+
+
+    <section class="aboutTrip container">
+        <div class="tripImg">
+            <div class="slider">
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_3.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_2.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_1.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_4.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_5.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_6.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_7.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_8.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <div class="item">
+                    <img src="../images/packages/Norway/norway_9.jpg" alt="Photo taken in Norway">
+
+                </div>
+
+                <a class="prev" onclick="minusSlide()">&#10094;</a>
+                <a class="next" onclick="plusSlide()">&#10095;</a>
+            </div>
+            <br>
+
+            <div class="slider-dots">
+                <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(5)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(6)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(7)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(8)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(9)"></span>
+            </div>
+        </div>
+        <div data-aos="flip-right" class="tripText">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi asperiores eligendi debitis officiis ad.
+                Ducimus error voluptate labore hic totam! Nihil, iure eligendi omnis eum earum magnam facilis, excepturi
+                laborum ullam labore praesentium!
+            </p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo a ut sapiente nostrum incidunt modi
+                odit voluptatum! Eaque maiores facilis non minima, facere maxime ab soluta nesciunt nihil accusamus
+                adipisci earum eligendi.
+            </p>
+
+            <p><strong>Included</strong></p>
+            <ol class="included">
+                <li>5 Star Accommodation</li>
+                <li>Airport Transfer</li>
+                <li>Breakfast</li>
+                <li>Personal Guide</li>
+            </ol>
+
+            <p><strong>Not Included</strong></p>
+            <ol class="notIncluded">
+                <li>Gallery Ticket</li>
+                <li>Lunch</li>
+            </ol>
+
+            <p class="price"><i class="fas fa-coins"></i> 300.00&#36;</p>
+        </div>
+    </section>
+
+
+    <section class="planTour container">
+        <h2>Tour Plan</h2>
+        <div class="row">
+            <div class="circle">
+                <div></div>
+            </div>
+            <div class="planTour-content row">
+                <div>
+                    <h3>
+                        Day 1: Departure
+                    </h3>
+                </div>
+                <div class="planTuyr-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus ullam magnam aspernatur
+                        architecto hic voluptatum doloremque quidem accusantium cumque cum debitis at pariatur error
+                        voluptate deserunt. Vero sequi quod, nemo assumenda ipsam ratione illum atque quaerat?
+                        Praesentium nostrum unde omnis eos incidunt minus, error eum nemo dolores fuga odio rerum et
+                        impedit consectetur! Eaque deleniti, in eum nemo dolore corrupti minima fuga? Ex dicta, quod cum
+                        non porro enim.
+                    </p>
+                    <p><strong>Included</strong></p>
+                    <ol class="included">
+                        <li>5 Star Accommodation</li>
+                        <li>Airport Transfer</li>
+                        <li>Breakfast</li>
+                        <li>Personal Guide</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="circle">
+                <div></div>
+            </div>
+            <div class="planTour-content row">
+                <div>
+                    <h3>
+                        Day 2: Visiting Lofoten
+                    </h3>
+                </div>
+                <div class="planTuyr-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus ullam magnam aspernatur
+                        architecto hic voluptatum doloremque quidem accusantium cumque cum debitis at pariatur error
+                        voluptate deserunt. Vero sequi quod, nemo assumenda ipsam ratione illum atque quaerat?
+                        Praesentium nostrum unde omnis eos incidunt minus, error eum nemo dolores fuga odio rerum et
+                        impedit consectetur! Eaque deleniti, in eum nemo dolore corrupti minima fuga? Ex dicta, quod cum
+                        non porro enim.
+                    </p>
+                    <p><strong>Included</strong></p>
+                    <ol class="included">
+                        <li>Breakfast</li>
+                        <li>Personal Guide</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="circle">
+                <div></div>
+            </div>
+            <div class="planTour-content row">
+                <div>
+                    <h3>
+                        Day 3: Visiting Svalbard
+                    </h3>
+                </div>
+                <div class="planTuyr-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus ullam magnam aspernatur
+                        architecto hic voluptatum doloremque quidem accusantium cumque cum debitis at pariatur error
+                        voluptate deserunt. Vero sequi quod, nemo assumenda ipsam ratione illum atque quaerat?
+                        Praesentium nostrum unde omnis eos incidunt minus, error eum nemo dolores fuga odio rerum et
+                        impedit consectetur! Eaque deleniti, in eum nemo dolore corrupti minima fuga? Ex dicta, quod cum
+                        non porro enim.
+                    </p>
+                    <p><strong>Included</strong></p>
+                    <ol class="included">
+                        <li>Breakfast</li>
+                        <li>Personal Guide</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="circle">
+                <div></div>
+            </div>
+            <div class="planTour-content row">
+                <div>
+                    <h3>
+                        Day 4: Rest
+                    </h3>
+                </div>
+                <div class="planTuyr-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus ullam magnam aspernatur
+                        architecto hic voluptatum doloremque quidem accusantium cumque cum debitis at pariatur error
+                        voluptate deserunt. Vero sequi quod, nemo assumenda ipsam ratione illum atque quaerat?
+                        Praesentium nostrum unde omnis eos incidunt minus, error eum nemo dolores fuga odio rerum et
+                        impedit consectetur! 
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="circle">
+                <div></div>
+            </div>
+            <div class="planTour-content row">
+                <div>
+                    <h3>
+                        Day 5: Return
+                    </h3>
+                </div>
+                <div class="planTuyr-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, doloribus ullam magnam aspernatur
+                        architecto hic voluptatum doloremque quidem accusantium cumque cum debitis at pariatur error
+                        voluptate deserunt. Vero sequi quod, nemo assumenda ipsam ratione illum atque quaerat?
+                    </p>
+                    <p><strong>Included</strong></p>
+                    <ol class="included">
+                        <li>Airport Transfer</li>
+                        <li>Breakfast</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="booking container">
+        <div>
+            <h2>book a tour</h2>
+            <form action="">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <div>
+                    <input type="date" required>
+                    <input type="number" placeholder="number of travelers" required>
+                </div>
+                <input type="submit" value="Book"></input>
+            </form>
+        </div>
+    </section>
+
+
+    <footer class="container">
+        <div class="footer_container">
+            <div>
+                <h3>GET IN TOUCH</h3>
+                <p>Discover the most luxurious holiday destinations with hand-picked hotels and bespoke itineraries
+                    expertly curated by our Travel Specialists
+                </p>
+                <div class="icon">
+                    <a href="https://twitter.com/" title="We are on twitter" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" title="We are on facebook" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" title="We are on linkedin" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" title="We are on instagram" target="_blank">
+                        <i class="fab fa-instagram-square fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4>CALL US</h4>
+                <p>1 (234) 567-891 <br>
+                    1 (234) 987-654
+                </p>
+
+                <h4>LOCATION</h4>
+                <p>
+                    121 Rock Sreet, 21 Avenue, New York, NY 92103-9000
+                </p>
+            </div>
+
+            <div class="footer_link">
+                <h4>Navigation</h4>
+                <a href="../html/index.html">Home</a>
+                <a href="../html/about.html">About</a>
+                <a href="../html/packages.html">Packages</a>
+                <a href="../html/gallery.html">Gallery</a>
+                <a href="../html/book.html">Book</a>
+            </div>
+
+            <div>
+                <h4>Newsletter</h4>
+                <p>Subscribe for latest updates</p>
+                <form action="#" method="get">
+                    <input type="email" placeholder="Enter email address" required>
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169;2021 All riights reserved &#10072; This template is made with
+                by Colorlib
+            </p>
+        </div>
+    </footer>
+
+    <a href="#home" id="scroll-top">
+        <i class="fas fa-chevron-up fa-2x"></i>
+    </a>
+
+
+    <script src="../js/burgerMenu.js"></script>
+    <script src="../js/scrollTop.js"></script>
+    <script src="../js/slider.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+    </script>
+</body>
+
+</html>

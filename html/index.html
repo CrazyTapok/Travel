@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4465fdc7db.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../images/icon-1.png">
+    <title>Travel</title>
+</head>
+
+<body>
+
+    <nav class="container" id="home">
+        <a href="../html/index.html" class="nav_logo">
+            Travel
+            <i class="fas fa-hiking"></i>
+            <i class="fas fa-campground"></i>
+        </a>
+        <div class="nav_righSide">
+            <div class="nav_menu">
+                <ul>
+                    <li><a href="../html/index.html">Home</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../html/packages.html">Packages</a></li>
+                    <li><a href="../html/gallery.html">Gallery</a></li>
+                    <li><a href="../html/book.html">Book</a></li>
+                </ul>
+            </div>
+
+            <div class="btns burgerMenu">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="content">
+            <h1>Live your Adventure</h1>
+            <p>Discover new places with us, adventure awaits</p>
+        </div>
+
+        <div class="controls">
+            <span class="controls-btn active" data-src="../video/video_8.mp4"></span>
+            <span class="controls-btn" data-src="../video/video_3.mp4"></span>
+            <span class="controls-btn" data-src="../video/video_7.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video id="video-slider" src="../video/video_8.mp4" autoplay loop muted type="mp4"></video>
+        </div>
+    </header>
+
+    <ul class="burgerMenu_navigation">
+        <li><a href="../html/index.html">Home</a></li>
+        <li><a href="../html/about.html">About</a></li>
+        <li><a href="../html/packages.html">Packages</a></li>
+        <li><a href="../html/gallery.html">Gallery</a></li>
+        <li><a href="../html/book.html">Book</a></li>
+    </ul>
+
+    <section class="about-us container">
+        <div data-aos="fade-right" class="about-us-img">
+            <div class="image">
+                <img src="../images/home_page/about-us.jpg" alt="Man on the background of the suns">
+            </div>
+        </div>
+        <div data-aos="fade-up" class="about-us-text">
+            <h2>About Us</h2>
+            <h3>Nature's Majesty Awaits You</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, adipisci impedit, fugiat minima
+                dolore possimus velit asperiores numquam, ab aperiam magni exercitationem blanditiis dolores ea et quis
+                tenetur labore saepe!
+            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti est, ut dolor vero minus nesciunt
+                fugit eius eligendi magnam ipsam?
+            </p>
+        </div>
+    </section>
+
+
+    <section class="start-adventure container">
+        <h2>start your adventures</h2>
+        <h3>Let's explore this world</h3>
+        <a href="../html/book.html" class="btn-1">Book Now</a>
+    </section>
+
+
+    <section class="theCrew container">
+        <div data-aos="fade-right">
+            <h2>The Crew</h2>
+            <h3>Behind a great job there is always a great team</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi fugiat magni saepe asperiores nemo hic
+                dicta recusandae aperiam provident? Fuga!
+            </p>
+        </div>
+        <div class="theCrew-gred">
+            <div data-aos="flip-left" data-aos-dalay="150" class="box1 employee">
+                <img src="../images/home_page/employee_1.jpg" alt="Company employee James">
+                <div class="overlay">
+                    <p><span>James</span><br>Manager</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-dalay="300" class="box2 employee">
+                <img src="../images/home_page/employee_2.jpg" alt="Company employee Elena">
+                <div class="overlay">
+                    <p><span>Elena</span><br>Manager</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-dalay="450" class="box3 employee">
+                <img src="../images/home_page/employee_3.jpg" alt="Company employee Billy">
+                <div class="overlay">
+                    <p><span>Billy</span><br>Manager</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-dalay="150" class="box4 employee">
+                <img src="../images/home_page/employee_4.jpg" alt="Company employee Bryan">
+                <div class="overlay">
+                    <p><span>Bryan</span><br>Manager</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-dalay="300" class="box5 employee">
+                <img src="../images/home_page/employee_5.jpg" alt="Company employee Irish">
+                <div class="overlay">
+                    <p><span>Irish</span><br>Manager</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-dalay="450" class="box6 employee">
+                <img src="../images/home_page/employee_6.jpg" alt="Company employee James">
+                <div class="overlay">
+                    <p><span>James</span><br>Manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="our-destination container">
+        <h2>Our Packages</h2>
+        <h3>Make Your Destination</h3>
+        <div class="our-destination-box">
+            <div data-aos="zoom-in" class="box">
+                <img src="../images/packages/Cappadocia/Cappadocia_1.jpg" alt="Photo taken in Сappadocia">
+                <div class="box-container">
+                    <h4><i class="fas fa-map-marker-alt"></i> Сappadocia</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$200.00</div>
+                    <a href="../html/packageCappadocia.html" class="btn myBtn">Book Now</a>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" class="box">
+                <img src="../images/packages/Carpathians/carpathians_0.jpg" alt="Photo taken in Carpathians">
+                <div class="box-container">
+                    <h4><i class="fas fa-map-marker-alt"></i> Carpathians</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$150.00</div>
+                    <a href="../html/packageCarpathians.html" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" class="box">
+                <img src="../images/packages/Norway/norway_0.jpg" alt="Photo taken in Norway">
+                <div class="box-container">
+                    <h4><i class="fas fa-map-marker-alt"></i> Norway</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$300.00</div>
+                    <a href="../html/packageNorway.html" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" class="box">
+                <img src="../images/packages/Lviv/lviv_0.jpg" alt="Photo taken in Lviv">
+                <div class="box-container">
+                    <h4><i class="fas fa-map-marker-alt"></i> Lviv</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00</div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" class="box">
+                <img src="../images/packages/Switzerland/switzerland_0.jpg" alt="Photo taken in Switzerland">
+                <div class="box-container">
+                    <h4><i class="fas fa-map-marker-alt"></i> Switzerland</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00</div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+
+            <div data-aos="zoom-in" class="box">
+                <img src="../images/packages/Canada/canada_0.jpg" alt="Photo taken in Canada">
+                <div class="box-container">
+                    <h4><i class="fas fa-map-marker-alt"></i> Canada</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, debitis.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00</div>
+                    <a href="#" class="btn">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="our-destination-btn">
+            <a href="../html/packages.html">See More</a>
+        </div>
+    </section>
+
+    <section class="gallery container">
+        <h2>Our Gallery</h2>
+        <h3>We record memories</h3>
+        <div class="gallery-box">
+            <div data-aos="zoom-in-up" class="box">
+                <a href="../html/gallery.html">
+                    <img src="../images/home_page/gallery-img-7.jpg" alt="Photo of subscribes">
+                </a>
+                <span>travel sport</span>
+                <h4>iceland</h4>
+            </div>
+
+            <div data-aos="zoom-in-up" class="box">
+                <a href="../html/gallery.html">
+                    <img src="../images/home_page/gallery-img-6.jpg" alt="Photo of subscribes">
+                </a>
+                <span>travel sport</span>
+                <h4>greenland</h4>
+            </div>
+
+            <div data-aos="zoom-in-up" class="box">
+                <a href="../html/gallery.html">
+                    <img src="../images/home_page/gallery-img-2.jpg" alt="Photo of subscribes">
+                </a>
+                <span>travel sport</span>
+                <h4>thailand</h4>
+            </div>
+
+            <div data-aos="zoom-in-up" class="box">
+                <a href="../html/gallery.html">
+                    <img src="../images/home_page/gallery-img-5.jpg" alt="Photo of subscribes">
+                </a>
+                <span>travel sport</span>
+                <h4>alaska</h4>
+            </div>
+
+            <div data-aos="zoom-in-up" class="box">
+                <a href="../html/gallery.html">
+                    <img src="../images/home_page/gallery-img-9.jpg" alt="Photo of subscribes">
+                </a>
+                <span>travel sport</span>
+                <h4>brazil</h4>
+            </div>
+
+            <div data-aos="zoom-in-up" class="box">
+                <a href="../html/gallery.html">
+                    <img src="../images/home_page/gallery-img-8.jpg" alt="Photo of subscribes">
+                </a>
+                <span>travel sport</span>
+                <h4>maldive</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-us container">
+        <h2>do you have any questions?</h2>
+        <form action="#" method="get">
+            <div class="form-row">
+                <div class="form-column">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter email address" required>
+                    <input type="number" placeholder="Enter your phon number">
+                </div>
+                <div>
+                    <textarea name="mytext" placeholder="Leave a request and we will answer" required></textarea>
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+    <section class="review container">
+        <h2>our customers reviews</h2>
+        <h3>Our satisfied customer says</h3>
+        <div class="box-container">
+            <div data-aos="flip-left" class="box">
+                <img src="../images/home_page/reviews-4.png" alt="Client photo">
+                <h4>Elena Deo</h4>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod excepturi totam autem eveniet
+                    rem ducimus et natus necessitatibus ipsum.
+                </p>
+            </div>
+
+            <div data-aos="flip-left" class="box">
+                <img src="../images/home_page/reviews-3.png" alt="Client photo">
+                <h4>Dennis Green</h4>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod excepturi totam autem eveniet
+                    rem ducimus et natus necessitatibus ipsum.
+                </p>
+            </div>
+
+            <div data-aos="flip-left" class="box">
+                <img src="../images/home_page/reviews-2.png" alt="Client photo">
+                <h4>Irene deo</h4>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum quod excepturi totam autem eveniet
+                    rem ducimus et natus necessitatibus ipsum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container">
+        <div class="footer_container">
+            <div>
+                <h3>Travel</h3>
+                <p>Discover the most luxurious holiday destinations with hand-picked hotels and bespoke itineraries
+                    expertly curated by our Travel Specialists
+                </p>
+                <div class="icon">
+                    <a href="https://twitter.com/" title="We are on twitter" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                    <a href="https://www.facebook.com/" title="We are on facebook" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" title="We are on linkedin" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" title="We are on instagram" target="_blank">
+                        <i class="fab fa-instagram-square fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div>
+                <h4>CALL US</h4>
+                <p>1 (234) 567-891 <br>
+                    1 (234) 987-654
+                </p>
+
+                <h4>LOCATION</h4>
+                <p>
+                    121 Rock Sreet, 21 Avenue, New York, NY 92103-9000
+                </p>
+            </div>
+
+            <div class="footer_link">
+                <h4>Navigation</h4>
+                <a href="../html/index.html">Home</a>
+                <a href="../html/about.html">About</a>
+                <a href="../html/packages.html">Packages</a>
+                <a href="../html/gallery.html">Gallery</a>
+                <a href="../html/book.html">Book</a>
+            </div>
+
+            <div>
+                <h4>Newsletter</h4>
+                <p>Subscribe for latest updates</p>
+                <form action="#" method="get">
+                    <input type="email" placeholder="Enter email address" required>
+                    <button type="submit">
+                        Subscribe
+                    </button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169;2021 All riights reserved &#10072; This template is made with
+                by Colorlib
+            </p>
+        </div>
+    </footer>
+
+    <a href="#home" id="scroll-top">
+        <i class="fas fa-chevron-up fa-2x"></i>
+    </a>
+
+    <script src="../js/burgerMenu.js"></script>
+    <script src="../js/scrollTop.js"></script>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            offset: 150,
+        });
+    </script>
+
+</body>
+
+</html>
